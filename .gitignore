@@ -1,0 +1,23 @@
+# 密钥 / 环境变量 —— 这个仓库是公开的，绝不能提交
+*.env
+.env
+.env.*
+
+# Python 虚拟环境与缓存
+.venv/
+__pycache__/
+*.pyc
+
+# 下载的原始文件与中间产物
+_downloads/
+_work/
+_recon/
+
+# 原始 PDF / 研报 / 本地模型权重 —— 体积太大（合计 ~2.8 GB），不入库。
+# 年报可用 download_annual_reports.py 重新下载，向量按 rag/README.md 的流水线重建。
+年报_合成纤维制造/
+研报_2026-09/
+qwen3-embedding/models/
+*.pdf
+# 但交付物本身要入库
+!第三周作业_题目与结论.pdf
