@@ -20,4 +20,21 @@ _recon/
 qwen3-embedding/models/
 *.pdf
 # 但交付物本身要入库
-!第三周作业_题目与结论.pdf
+!第三周作业_一页结论.pdf
+!第三周作业_附录_题目与逐题记录.pdf
+
+# 本仓库只收第三周作业：其它作业/其它项目的文件不要被 add -A 扫进来
+.github/
+index.html
+history.html
+graph.html
+scripts/
+data/
+消费税改革汇报/
+download_reports.py
+eastmoney_report_api_research.md
+embed_10.bat
+接口说明.md
+分析要求.md
+论文主题.txt
+做一个判案 API（接口规范）.txt

@@ -13,7 +13,8 @@
 |---|---|
 | 代码仓库 | `rag/`（抽取 → 切块 → 向量 → 索引 → 问答服务） |
 | 页面截图 | `截图/01_全景散点.png`、`02_检索过程.png`、`03_回答与引用.png`、`04_问答面板.png` |
-| 10 道题 + 一页结论 | `第三周作业_题目与结论.pdf` |
+| **一页结论**（交付要求） | `第三周作业_一页结论.pdf` |
+| 附录：6 页逐题记录 | `第三周作业_附录_题目与逐题记录.pdf` |
 | 逐题评测记录 | `rag/eval/out/评测记录.md`、`results.json`、`evidence/qNN.md` |
 | 结论（markdown 源） | `rag/eval/结论.md` |
 
@@ -44,7 +45,8 @@ run_rag.bat
 
 ```bat
 python rag\eval\run_eval.py        rem 跑 10 道题，含 4 道跨公司题的逐家扫描
-python rag\eval\make_pdf.py        rem 重新生成题目+结论 PDF
+python rag\eval\make_onepage.py    rem 重新生成一页结论 PDF
+python rag\eval\make_pdf.py        rem 重新生成 6 页附录 PDF
 python rag\eval\shot.py --out 截图 rem 重新截图
 ```
 

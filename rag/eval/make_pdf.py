@@ -165,7 +165,7 @@ def build_html(questions, results, conclusion_md):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--out", default=str(REPO / "第三周作业_题目与结论.pdf"))
+    ap.add_argument("--out", default=str(REPO / "第三周作业_附录_题目与逐题记录.pdf"))
     ap.add_argument("--html", default=None, help="同时保留中间 HTML，便于排查排版")
     args = ap.parse_args()
 
